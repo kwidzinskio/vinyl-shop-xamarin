@@ -1,0 +1,95 @@
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\bin\Debug\netstandard2.0\RealWorldApp.deps.json
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\bin\Debug\netstandard2.0\RealWorldApp.dll
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\bin\Debug\netstandard2.0\RealWorldApp.pdb
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.csproj.AssemblyReference.cache
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\AddImagePage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ChangePasswordPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ChangePhonePage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ExplorePage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\Homepage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ItemDetailPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ItemsListPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\LoginPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MapPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MyAccountPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MyAdsPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MyItemDetailPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SearchPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SellPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SetLocationPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SignupPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.AssemblyInfoInputs.cache
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.AssemblyInfo.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.csproj.CoreCompileInputs.cache
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.dll
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\refint\RealWorldApp.dll
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.pdb
+C:\Users\kwidz\Desktop\Projekt mobilne 0\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\ref\RealWorldApp.dll
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\bin\Debug\netstandard2.0\RealWorldApp.deps.json
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\bin\Debug\netstandard2.0\RealWorldApp.dll
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\bin\Debug\netstandard2.0\RealWorldApp.pdb
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.csproj.AssemblyReference.cache
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\AddImagePage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ChangePasswordPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ChangePhonePage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ExplorePage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\Homepage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ItemDetailMapPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ItemDetailPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ItemsListPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\LoginPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MapPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MyAccountPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MyAdsPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MyItemDetailPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SearchPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SellPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SetLocationPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SignupPage.xaml.g.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.AssemblyInfoInputs.cache
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.AssemblyInfo.cs
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.csproj.CoreCompileInputs.cache
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.dll
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\refint\RealWorldApp.dll
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.pdb
+C:\Users\kwidz\Desktop\Projekt mobilne 1\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\ref\RealWorldApp.dll
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\bin\Debug\netstandard2.0\RealWorldApp.deps.json
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\bin\Debug\netstandard2.0\RealWorldApp.dll
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\bin\Debug\netstandard2.0\RealWorldApp.pdb
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.csproj.AssemblyReference.cache
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\AddImagePage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ChangePasswordPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ChangePhonePage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ExplorePage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\Homepage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ItemDetailMapPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ItemDetailPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\ItemsListPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\LoginPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MapPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MyAccountPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MyAdsPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\MyItemDetailPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SearchPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SellPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SetLocationPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\Pages\SignupPage.xaml.g.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.AssemblyInfoInputs.cache
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.AssemblyInfo.cs
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.csproj.CoreCompileInputs.cache
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.dll
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\refint\RealWorldApp.dll
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\RealWorldApp.pdb
+C:\Users\kwidz\Desktop\VinylShopXamarin\RealWorldApp\RealWorldApp\RealWorldApp\RealWorldApp\obj\Debug\netstandard2.0\ref\RealWorldApp.dll

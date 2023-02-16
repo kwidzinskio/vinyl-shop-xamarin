@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             mc:Ignorable="d"
+                 NavigationPage.HasNavigationBar="False"
+                 BackgroundColor="#f5ebe9"
+                 x:Class="RealWorldApp.Pages.ChangePhonePage">
+    <ContentPage.Content>
+        <StackLayout Margin="10"
+                         VerticalOptions="CenterAndExpand"
+                         BackgroundColor="#f5ebe9">
+            <forms:CachedImage x:Name="ImgVinyl"
+                                       Source="vinyl.png"
+                                       VerticalOptions="Center"
+                                       HeightRequest="100"
+                                       Aspect="AspectFit"
+                                       CacheType="All"
+                                       HorizontalOptions="Center">
+            </forms:CachedImage>
+
+            <Label FontSize="Large"
+                       TextColor="#961111"
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"
+                       Text="Change phone" 
+                       Margin="10"/>
+            <Entry Margin="20"
+                       Placeholder="New phone number"
+                       Keyboard="Telephone"
+                       PlaceholderColor="#a37777"
+                       x:Name="EntPhone" />
+            <Button Margin="20"
+                        BackgroundColor="#961111"
+                        TextColor="White"
+                        Text="Add Phone"
+                        x:Name="BtnAddPhone" 
+                        Clicked="BtnAddPhone_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

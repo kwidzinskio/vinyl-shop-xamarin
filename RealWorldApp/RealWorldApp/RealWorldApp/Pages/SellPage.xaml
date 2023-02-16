@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:transformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations" xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             mc:Ignorable="d"
+                 NavigationPage.HasNavigationBar="False"
+                 x:Class="RealWorldApp.Pages.SellPage">
+    <ContentPage.Content >
+        <ScrollView BackgroundColor="#f5ebe9">
+            
+            
+            <StackLayout Spacing="10" >
+                <StackLayout BackgroundColor="#961111">
+                    <forms:CachedImage x:Name="ImgVinyl"
+                                       Source="vinyl.png"
+                                       VerticalOptions="Center"
+                                       HeightRequest="70"
+                                       Aspect="AspectFit"
+                                       CacheType="All"
+                                       HorizontalOptions="Center">
+                    </forms:CachedImage>
+                    <Label HorizontalOptions="Center"
+                           VerticalOptions="Start"
+                           Text="Publish offer"
+                           TextColor="White"
+                           FontSize="Medium">
+                    </Label>
+                </StackLayout>
+                
+                <StackLayout Margin="20">
+                    <Label HorizontalTextAlignment="Start"
+                               FontSize="Body"
+                               FontAttributes="Bold"
+                           TextColor="#961111"
+                               Text="Condition" />
+                    <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="CenterAndExpand">
+                        <Frame HasShadow="False"
+                                   CornerRadius="0"
+                                   BorderColor="#961111"
+                                   Padding="50,10,50,10"
+                                   Margin="10"
+                                   x:Name="FrameUsed">
+                            <Label Text="Used"
+                                    FontAttributes="Bold"
+                                       TextColor="#961111"
+                                       x:Name="LblUsed" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="TapUsed" Tapped="TapUsed_Tapped" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                        <Frame HasShadow="False"
+                                   CornerRadius="0"
+                                   BorderColor="#961111"
+                                   Padding="50,10,50,10"
+                                   Margin="10"
+                                   x:Name="FrameNew">
+                            <Label Text="New"
+                                       FontAttributes="Bold"
+                                       TextColor="Black"
+                                       x:Name="LblNew" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="TapNew" Tapped="TapNew_Tapped" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                    </StackLayout>
+
+                    <Label HorizontalTextAlignment="Start"
+                               FontSize="Body"
+                               Font="Bold"
+                           TextColor="#961111"
+                               Text="Title*" />
+                    <Entry x:Name="EntTitle" />
+                    <Label HorizontalTextAlignment="Start"
+                               FontSize="Body"
+                               Font="Bold"
+                           TextColor="#961111"
+                               Text="Category*" />
+                    <Picker FontSize="Body"
+                                x:Name="PickerCategory" 
+                                ItemDisplayBinding="{Binding Type}"
+                                SelectedIndexChanged="PickerCategory_SelectedIndexChanged" />
+                    <Label HorizontalTextAlignment="Start"
+                               FontSize="Body"
+                               Font="Bold"
+                           TextColor="#961111"
+                               Text="Artist" />
+                    <Entry x:Name="EntBand" />
+                    <Label HorizontalTextAlignment="Start"
+                               FontSize="Body"
+                               Font="Bold"
+                           TextColor="#961111"
+                               Text="Album" />
+                    <Entry x:Name="EntAlbum" />
+                    <Label HorizontalTextAlignment="Start"
+                               FontSize="Body"
+                               Font="Bold"
+                           TextColor="#961111"
+                               Text="Release year" />
+                    <Entry x:Name="EntReleaseYear" />
+                    <Label HorizontalTextAlignment="Start"
+                               FontSize="Body"
+                               Font="Bold"
+                           TextColor="#961111"
+                               Text="Price" />
+                    <Entry x:Name="EntPrice" />
+                    <Label HorizontalTextAlignment="Start"
+                               FontSize="Body"
+                               Font="Bold"
+                           TextColor="#961111"
+                               Text="Description" />
+                    <Editor HeightRequest="100"
+                                AutoSize="Disabled"
+                            FontSize="Body"
+                                x:Name="EdiDescription" />
+                </StackLayout>
+                <Button Text="SET PICKUP LOCATION"
+                            TextColor="White"
+                            BackgroundColor="Black"
+                            x:Name="BtnSell" 
+                            Clicked="BtnSell_Clicked" />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             ios:Page.UseSafeArea="True"
+             x:Class="RealWorldApp.Pages.ItemsListPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#f5ebe9">
+            <StackLayout Orientation="Vertical">
+                <ImageButton VerticalOptions="Center"
+                             HorizontalOptions="Start"
+                             Margin="15"
+                             Aspect="AspectFit"
+                             BackgroundColor="Transparent"
+                             Source="backarrow.png"
+                             x:Name="BtnBack" Clicked="BtnBack_Clicked" />
+                <BoxView BackgroundColor="#707070"
+                         HeightRequest="1" />
+            </StackLayout>
+
+            <ListView x:Name="LvItems"
+                      HasUnevenRows="True"
+                      SeparatorColor="#707070"
+                      Footer=""
+                      CachingStrategy="RecycleElement"
+                      ItemSelected="LvItems_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="15"
+                                  Margin="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="3*" />
+                                    <ColumnDefinition Width="7*" />
+                                </Grid.ColumnDefinitions>
+                                <forms:CachedImage Grid.Row="0"
+                                                   Grid.Column="0"
+                                                   Grid.RowSpan="4"
+                                                   HeightRequest="100"
+                                                   Aspect="AspectFit"
+                                                   LoadingPlaceholder="placeholder.png"
+                                                   Source="{Binding FullImageUrl}"/>
+
+                                <StackLayout Orientation="Horizontal"
+                                             Grid.Row="0"
+                                             Grid.Column="1">
+                                    <Frame BackgroundColor="#961111"
+                                           Padding="10,0,10,0">
+                                        <Label TextColor="White"
+                                               Text="{Binding IsFeaturedAd}"/>
+                                    </Frame>
+                                </StackLayout>
+
+                                <StackLayout Grid.Row="1"
+                                             Grid.Column="1"
+                                             Orientation="Horizontal">
+                                    <Label TextColor="Black"
+                                           Text="{Binding Price, StringFormat='${0}'}"/>
+                                    <Label TextColor="Black"
+                                           HorizontalOptions="EndAndExpand"
+                                           Text="{Binding AdPostedDate}"/>
+                                </StackLayout>
+
+                                <Label TextColor="Black"
+                                       Grid.Row="2"
+                                       Grid.Column="1"
+                                       Text="{Binding Title}"/>
+                                <StackLayout Orientation="Horizontal"
+                                             Grid.Row="3"
+                                             Grid.Column="1">
+                                    <Image Source="locationicon.png" />
+                                    <Label LineBreakMode="TailTruncation"
+                                           VerticalTextAlignment="Center"
+                                           TextColor="Black"
+                                           Text="{Binding Location}"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

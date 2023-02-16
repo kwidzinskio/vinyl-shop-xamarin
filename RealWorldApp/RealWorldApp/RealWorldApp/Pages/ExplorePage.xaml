@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+                 mc:Ignorable="d"
+                 x:Class="RealWorldApp.Pages.ExplorePage">
+    <ContentPage.Content>
+
+        <StackLayout BackgroundColor="#f5ebe9">
+
+            <Frame Padding="5" BackgroundColor="White">
+                <StackLayout Spacing="20"
+                                 Orientation="Horizontal"
+                                 BackgroundColor="White">
+                    <Image Source="searchIcon.png"
+                               Aspect="AspectFit" />
+                    <Label Text="Search"
+                            VerticalOptions="CenterAndExpand"
+                            FontSize="Medium"
+                            TextColor="#961111"/>
+                </StackLayout>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="TapSearch" Tapped="TapSearch_Tapped"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+            <CollectionView x:Name="CvItems"
+                                SelectionMode="Single"
+                                SelectionChanged="CvItems_SelectionChanged">
+                <CollectionView.Header>
+                    <StackLayout Spacing="20"
+                                     Padding="5">
+                        <Label TextColor="Black"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"
+                                   Margin="10,0,0,0"
+                                   Text="Browse Categories" />
+                        <FlexLayout JustifyContent="SpaceEvenly">
+                            <StackLayout>
+                                <Image HeightRequest="60"
+                                       WidthRequest="60"
+                                       Source="electricGuitar.png">
+                                </Image>
+                                <Label HorizontalOptions="Center"
+                                       VerticalOptions="Start"
+                                       Text="Rock"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"
+                                       FontSize="Small">    
+                                </Label>
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="TapRock" Tapped="TapRock_Tapped" />
+                                </StackLayout.GestureRecognizers>
+                            </StackLayout>
+
+                            <StackLayout>
+                                <Image HeightRequest="60"
+                                       WidthRequest="60"
+                                       Source="rapper.png">
+                                </Image>
+                                <Label HorizontalOptions="Center"
+                                       VerticalOptions="Start"
+                                       Text="Rap"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"
+                                       FontSize="Small">
+                                </Label>
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="TapRap" Tapped="TapRap_Tapped" />
+                                </StackLayout.GestureRecognizers>
+                            </StackLayout>
+
+                            <StackLayout>
+                                <Image HeightRequest="60"
+                                       WidthRequest="60"
+                                       Source="pop.png">
+                                </Image>
+                                <Label HorizontalOptions="Center"
+                                       VerticalOptions="Start"
+                                       Text="Pop"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"
+                                       FontSize="Small">
+                                </Label>
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="TapPop" Tapped="TapPop_Tapped" />
+                                </StackLayout.GestureRecognizers>
+                            </StackLayout>
+                        </FlexLayout>
+                        <Label TextColor="Black"
+                                   FontSize="Medium"
+                                   Margin="10,0,0,0"
+                                   FontAttributes="Bold"
+                                   Text="Hot and new" />
+                    </StackLayout>
+                </CollectionView.Header>
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                                         Span="2" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView Padding="5">
+                            <Frame Padding="0, 5, 0, 5"
+                                       HasShadow="True"
+                                       CornerRadius="20"
+                                       BackgroundColor="#f6eeec">
+                                <StackLayout Spacing="10">
+                                    <forms:CachedImage  HeightRequest="150"                              
+                                                           LoadingPlaceholder="placeholder.png" 
+                                                           Source="{Binding FullImageUrl}"/>
+                                    <Label Margin="0,0,0,10"
+                                               TextColor="Black"
+                                               HorizontalTextAlignment="Center"
+                                               HorizontalOptions="Center"
+                                               Text="{Binding Title}"/>
+
+                                </StackLayout>
+                            </Frame>
+                        </ContentView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+

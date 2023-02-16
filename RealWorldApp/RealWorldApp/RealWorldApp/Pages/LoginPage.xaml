@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             mc:Ignorable="d"
+                 NavigationPage.HasNavigationBar="False"
+                 BackgroundColor="#f5ebe9"
+                 x:Class="RealWorldApp.Pages.LoginPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="15"
+                         Margin="25"
+                         BackgroundColor="#f5ebe9">
+            <Grid Margin="0,0,0,60">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="30" />
+                </Grid.ColumnDefinitions>
+                <ImageButton Grid.Column="0"
+                                 Aspect="AspectFit"
+                                 BackgroundColor="Transparent"
+                                 Source="backarrow.png"
+                                 x:Name="BtnBack" 
+                                 Clicked="BtnBack_Clicked"/>
+                <Label Grid.Column="1"
+                           TextColor="#961111"
+                           Font="Bold"
+                           Text="LOGIN"
+                           FontSize="Title"
+                           HorizontalOptions="CenterAndExpand"
+                           Margin="30" />
+            </Grid>
+            <Entry Placeholder="Email"
+                       PlaceholderColor="#a37777"
+                       TextColor="#961111"
+                       x:Name="EntEmail"
+                       Keyboard="Email" />
+            <Entry Placeholder="Password"
+                       PlaceholderColor="#a37777"
+                       TextColor="#961111"
+                       IsPassword="True"
+                       x:Name="EntPassword"
+                       Keyboard="Default" />
+            <Button Text="Login"
+                        BackgroundColor="#961111"
+                        TextColor="White"
+                        x:Name="BtnLogin"
+                        Clicked="BtnLogin_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

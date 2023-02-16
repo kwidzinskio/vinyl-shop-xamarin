@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+                 xmlns:transformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+                 mc:Ignorable="d"
+                 x:Class="RealWorldApp.Pages.MyAccountPage">
+    <ContentPage.Content >
+        <Grid BackgroundColor="#f5ebe9">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="7*" />
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0"
+                             BackgroundColor="#961111"
+                             Padding="0, 10, 0, 10">
+
+                <forms:CachedImage x:Name="ImgProfile"
+                                       LoadingPlaceholder="userPlaceholder.png"
+                                       Source="userPlaceholder.png"
+                                       VerticalOptions="EndAndExpand"
+                                       HeightRequest="100"
+                                       Aspect="AspectFit"
+                                       CacheType="All"
+                                       HorizontalOptions="Center">
+                    <forms:CachedImage.Transformations>
+                        <transformations:CircleTransformation />
+                    </forms:CachedImage.Transformations>
+                </forms:CachedImage>
+
+                <Label HorizontalOptions="Center"
+                           VerticalOptions="Start"
+                           Text="Change image"
+                           TextColor="White"
+                           FontSize="Medium">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="TapUploadImage" Tapped="TapUploadImage_Tapped"/>
+                    </Label.GestureRecognizers>
+
+                </Label>
+            </StackLayout>
+            <StackLayout Spacing="20"
+                             Margin="0,20,0,0"
+                             Grid.Row="1"
+                             BackgroundColor="#f5ebe9">
+                <Label Margin="20,0,20,0"
+                           Text="Change password"
+                           FontAttributes="Bold"
+                           TextColor="#961111"
+                           FontSize="Medium">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="TapChangePassword" Tapped="TapChangePassword_Tapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <BoxView HeightRequest="1"
+                             BackgroundColor="Black" />
+                <Label Margin="20,0,20,0"
+                           Text="Change phone"
+                           FontAttributes="Bold"
+                           TextColor="#961111"
+                           FontSize="Medium">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="TapChangePhone" Tapped="TapChangePhone_Tapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                <BoxView HeightRequest="1"
+                             BackgroundColor="Black" />
+                <Label Margin="20,0,20,0"
+                           Text="Logout"
+                           TextColor="#961111"
+                           FontAttributes="Bold"
+                           FontSize="Medium">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="TapLogout" Tapped="TapLogout_Tapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <BoxView HeightRequest="1"
+                             BackgroundColor="Black" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

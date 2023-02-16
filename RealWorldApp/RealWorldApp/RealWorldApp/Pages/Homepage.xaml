@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealWorldApp.Pages.Homepage"
+             xmlns:androidSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            xmlns:pages="clr-namespace:RealWorldApp.Pages"
+            androidSpecific:TabbedPage.ToolbarPlacement="Bottom"
+            BarBackgroundColor="#961111"
+            SelectedTabColor="Black"
+            UnselectedTabColor="White"
+            NavigationPage.HasNavigationBar="False">
+
+    <pages:ExplorePage Title="Explore" IconImageSource="explore.png"/>
+    <pages:SellPage Title="Sell" IconImageSource="sell.png"/>
+    <pages:MyAdsPage Title="My Adds" IconImageSource="ads.png"/>
+    <pages:MapPage Title="Nearby" IconImageSource="locationIcon.png"/>
+    <pages:MyAccountPage Title="Account" IconImageSource="user.png"/>
+
+    
+
+
+</TabbedPage>
